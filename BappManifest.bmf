@@ -3,10 +3,11 @@ ExtensionType: 1
 Name: WAFDetect
 RepoName: waf-detect
 ScreenVersion: 1.0.1
-SerialVersion: 2
+SerialVersion: 3
 MinPlatformVersion: 0
-ProOnly: False
+ProOnly: True
 Author: Eric Paquet
 ShortDescription: Passively detects web application firewalls from HTTP responses.
 EntryPoint: build/libs/waf-detect-all.jar
 BuildCommand: gradle fatJar
+SupportedProducts: Pro, Enterprise
